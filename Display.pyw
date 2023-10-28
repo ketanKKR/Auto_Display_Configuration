@@ -2,8 +2,8 @@ import psutil
 import time
 import os
 
-file60_path = r"C:\Qres\60Hz - Shortcut.lnk"
-file144_path = r"C:\Qres\144Hz - Shortcut.lnk"
+file60_path = r"C:\Qres\60Hz - Shortcut.lnk" #file path for charger disconnect
+file144_path = r"C:\Qres\144Hz - Shortcut.lnk" #file path for charger connect
 
 def is_charger_plugged():
     battery = psutil.sensors_battery()
